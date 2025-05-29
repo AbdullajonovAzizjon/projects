@@ -20,28 +20,3 @@ body{
     width: 100%;
     margin: 0 auto;
 }
-
-.information__wraper{
-    max-width: 1153px;
-    width: 100%;
-    border: 2px solid black;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.container .information__wraper .box1 .img__wrap img{
-    position: relative;
-}
-
-.container .information__wraper .box1 .img__wrap .pink__circle{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: #FF5391;
-    position: absolute;
-    top: 280px;
-    left: 216px;
-    z-index: -1;
-}
