@@ -19,22 +19,20 @@ body{
     max-width: 1153px;
     width: 100%;
     margin: 0 auto;
-}
-
-.container .diagrams__wrapper{
-    max-width: 1153px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.container .diagrams__wrapper .all__diagrams{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.container .diagrams__wrapper .all__diagrams .diagrams{
-    width: 300px;
-    height: 600px;
     border: 2px solid black;
+}
+
+.container .diagramsWrap .diagram1 .img__wrap{
+    position: relative;
+}
+
+.container .diagramsWrap .diagram1 .img__wrap .pink__circle{
+    width: 45px;
+    height: 45px;
+    background-color: #FF5391;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 23px;
+    z-index: -1;
 }
