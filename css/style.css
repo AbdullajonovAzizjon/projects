@@ -36,3 +36,18 @@ body{
     left: 23px;
     z-index: -1;
 }
+
+.container .diagramsWrap .diagram2 .img__wrap{
+    position: relative;
+}
+
+.container .diagramsWrap .diagram2 .img__wrap .slateBlue__circle{
+    width: 45px;
+    height: 45px;
+    background-color: #7553FF;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: -10px;
+    z-index: -1;
+}
