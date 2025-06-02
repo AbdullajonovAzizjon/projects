@@ -22,8 +22,8 @@ body{
 
 .container .diagramsWrap{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 ustun */
-    gap: 40px 60px; /* qator va ustun oralig'i */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 60px; 
     text-align: center;
     max-width: 1153px;
     margin: 0 auto;
