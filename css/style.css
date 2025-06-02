@@ -22,6 +22,11 @@ body{
     border: 2px solid black;
 }
 
+.container .diagramsWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container .diagramsWrap .diagram1 .img__wrap{
     position: relative;
 }
